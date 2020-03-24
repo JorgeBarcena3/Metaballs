@@ -10,8 +10,8 @@ To implement this system, I have used C++ and the SFML library to create the exe
 Keep in mind that the implementation of this algorithm is quite expensive because it must be iterated through all the pixels on the screen. Even so, the performance it obtained has been quite adequate.
 
 <p align="center">
-<img src="https://github.com/JorgeBarcena3/Flocking-Boids/blob/master/assets/beh_01.gif" width="400" />
-<img src="https://github.com/JorgeBarcena3/Flocking-Boids/blob/master/assets/beh_02.gif" width="400" />
+<img src="https://github.com/JorgeBarcena3/Metaballs/blob/master/assets/test_02.gif" width="400" />
+<img src="https://github.com/JorgeBarcena3/Metaballs/blob/master/assets/test_01.gif" width="400" />
 </p>
 
 ## Auto-executable file
