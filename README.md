@@ -1,15 +1,13 @@
 
 
-# Flocking-Boids
+# Metaballs
 
 
-It implements the **Flocking Boids algorithm.** This algorithm tries to simulate the behavior of large masses of individuals. It was originally based on the flapping of birds.
+This project implements the graphics technique called **Metaballs**. This technique is used for simulating organic interaction between different materials (more liquid-oriented).
 
-To implement this system I have used C ++, and the SFML library, to create the execution window.
+To implement this system, I have used C++ and the SFML library to create the execution window.
 
-Here we have two GIFs that show the general behavior. In the first one you can see how different individuals interact. The second shows how they avoid the position of the mouse.
-
-In the application we will also find 3 sliders, the first of them handles the weight of the **alignment** behavior, the second the **cohesion** behavior and the third the behavior of **avoiding** other individuals.
+Keep in mind that the implementation of this algorithm is quite expensive because it must be iterated through all the pixels on the screen. Even so, the performance it obtained has been quite adequate.
 
 <p align="center">
 <img src="https://github.com/JorgeBarcena3/Flocking-Boids/blob/master/assets/beh_01.gif" width="400" />
@@ -18,4 +16,4 @@ In the application we will also find 3 sliders, the first of them handles the we
 
 ## Auto-executable file
 
-In the "executable" folder, you can find a file that will extract a folder. By executing the extracted file "Flocking-Boids.exe", you can test the application in real time.
+In the "executable" folder, you can find a file that will extract a folder. By executing the extracted file "Metaballs.exe", you can test the application in real time.
